@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/schedules/1.0.0/schema.json",
+  "schedules": [
+    {
+      "enabled": true,
+      "jobType": "Execute",
+      "configuration": {
+        "type": "Weekly",
+        "startDateTime": "2026-04-04T00:00:00",
+        "endDateTime": "2027-04-25T23:59:00",
+        "localTimeZoneId": "Eastern Standard Time",
+        "times": [
+          "10:00"
+        ],
+        "weekdays": [
+          "Sunday"
+        ]
+      }
+    },
+    {
+      "enabled": true,
+      "jobType": "Execute",
+      "configuration": {
+        "type": "Weekly",
+        "startDateTime": "2026-04-04T00:00:00",
+        "endDateTime": "2027-04-25T23:59:00",
+        "localTimeZoneId": "Eastern Standard Time",
+        "times": [
+          "10:00"
+        ],
+        "weekdays": [
+          "Sunday"
+        ]
+      }
+    }
+  ]
+}
